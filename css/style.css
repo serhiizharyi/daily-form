@@ -26,6 +26,16 @@ input[type="button"],
 button,
 .ba-button{
 	display: inline-block;
+	text-decoration: none;
+	background-color: #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	height: 50px;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -126,6 +136,7 @@ textarea {
 .ba-signup-form__policy {
 	margin: 0;
 	font-size: 12px;
+	padding-top: 27px;
 }
 
 .ba-signup-form__policy a {
@@ -134,20 +145,3 @@ textarea {
 	font-size: 12px;
 }
 
-.ba-signup-form__signup {
-	padding-bottom: 27px;
-}
-
-.ba-signup-form__button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	background-color: #ea355a;
-	box-shadow: 0px 3px 0px 0px #bd1962;
-	height: 50px;
-	color:  #ffffff;
-	font-size: 18px;
-	font-weight: 700;
-	border-radius: 3px;
-}
