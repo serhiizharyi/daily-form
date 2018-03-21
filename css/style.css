@@ -121,6 +121,11 @@ textarea {
 	font-size: 13px;
 }
 
+.ba-signup-form__header--description a:hover {
+	color: #fff;
+	background-color:  #ea355a;
+}
+
 .ba-signup-form__name {
 	display: flex;
 }
@@ -143,5 +148,10 @@ textarea {
 	text-decoration: none;
 	color:  #ea355a;
 	font-size: 12px;
+}
+
+.ba-signup-form__policy a:hover {
+	color: #fff;
+	background-color:  #ea355a;
 }
 
